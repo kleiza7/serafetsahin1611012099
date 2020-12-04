@@ -5,7 +5,7 @@ const name =  "Şerafet Şahin";
 
 const anaSayfa = function(req, res, next) {
   res.render('mekanlar-liste', 
-  { 'baslik' : 'Anasayfa',
+  { 'baslik' : 'Ana Sayfa',
     name : name,
     'sayfaBaslik' :{
       'siteAd' : 'Mekan32',
@@ -102,7 +102,7 @@ const mekanBilgisi = function(req, res, next) {
 }
 
 const yorumEkle = function(req, res, next) {
-  res.render('yorum-ekle', { title: 'yorumEkle', name:name});
+  res.render('yorum-ekle', { title: 'Yorum Ekle', name:name});
 }
 
 
